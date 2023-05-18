@@ -88,10 +88,53 @@ Eg. __Amazon EKS__ <--> __Azure Arc__ <--> __GCP Kubernetes Engine__
 * __Agility__  
 * __Pay-as-you-go pricing__  
 * __Economy of scale__  
-* __Global Reach__  
+* __Global Reach__ 
 * __Security__  
 * __Reliability__  
 * __High Availability__  
 * __Scalability__  
 * __Elasticity__
 
+### Six Advantages of the Cloud
+
+1. Trade capital expense for variable expense __(Pay On Demand)__  
+2. Benefit from massive economies of scale __(Sharing the cost with other customers)__  
+3. Stop guessing capacity __(Scale up or down)__  
+4. Increase speed and agility __(Launch resources within a few clicks in minutes)__  
+5. Stop spending money on running and maintaining data centers __(Focus on your own customers)__  
+6. Go Global in minutes __(Deploy your app in multiple regions around the world with a few clicks)__  
+
+## Global Infrastructure
+
+### Availability Zones
+Physical location made up of one or more datacenter. 
+A __region__ will generally contain 3 __Availability Zones__.   
+
+### Fault Tolerance
+
+#### Fault Domain
+Section of a network that is vulnerable to damage if a critical device system fails. The purpose of the fault domain is that if a failure occurs it will not cascade outside that domain, limiting the damage possible.  
+Eg. Availability Zone
+
+#### Fault Level
+Collection of Fault domains.  
+Eg. Region  
+
+### AWS Global Network
+Interconnections between AWS Global Infrastructure
+
+
+### Point of Presence
+Intermediate location between AWS Region and End user for content delivery or expediated upload.  
+* __Amazon Cloudfront__  
+* __Amazon S3 Transfer Acceleration__  
+* __AWS Global Accelerator__ 
+
+### AWS Direct Connect  
+Private / Dedicated connection between datacenter, office, co-location & AWS.  
+
+### Wavelength Zones
+Allows for edge computing on 5G networks.  
+
+### Data Residency
+Payical or Geogrpahic location of an organization or cloud resouces reside.  
